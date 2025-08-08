@@ -1,5 +1,5 @@
+[![App Status](https://img.shields.io/badge/Live%20App-Render-blue?logo=render&labelColor=gray)](https://solar-forecast-uk.onrender.com/)
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
-![Last commit](https://img.shields.io/github/last-commit/DixonScott/solar-forecast)
 
 # Solar Forecast UK
 
