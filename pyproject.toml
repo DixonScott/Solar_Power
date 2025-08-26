@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "solar-forecast"
+version = "1.0"
+description = "Predicting solar power output from the weather forecast"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "Flask",
+    "gunicorn",
+    "joblib",
+    "matplotlib",
+    "numpy",
+    "openmeteo_requests",
+    "pandas",
+    "psutil",
+    "python-dotenv",
+    "requests",
+    "scikit-learn",
+    "scipy",
+    "seaborn",
+]
+
+[tool.setuptools]
+packages = ["build_dataset"]
